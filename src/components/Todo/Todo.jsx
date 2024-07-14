@@ -1,7 +1,10 @@
  import React, { useState } from 'react'
  import './Todo.css'
  import {useDispatch, useSelector} from 'react-redux'
- import {addTodo, deleteTodo, removeTodo} from '/Applications/ local/reactredux/reduxtodo/src/actions'
+ import { addTodo } from '../../actions'
+ import { deleteTodo } from '../../actions'
+ import { removeTodo } from '../../actions'
+
 
  const Todo = () => {
 
