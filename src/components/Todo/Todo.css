@@ -1,0 +1,71 @@
+ body{
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(14, 14, 59);
+ }
+ .main-div{
+   color: white;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .child-div{
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+ }
+ .addItem{
+  padding:2px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+ }
+ input{
+  border: none;
+  font-size: 18px;
+  width: 100%;
+  outline: none; /* This will remove blue border of input box onclick*/
+  color: green;
+ }
+ .plusicon{
+  color: blue;
+  cursor: pointer;
+ }
+ /* showItems */
+.showItem{
+  height: auto;
+  /* background-color: red; */
+  /* padding: 10px; */
+}
+.eachItem{
+  background-color: rgb(124, 98, 230);
+  font-size: 20px;
+  height: 40px;
+  color: white;
+  /* padding: 15px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px auto;
+}
+.trashicon{
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.trashicon:hover{
+  color: red;
+}
+.btnRemoveAll{
+  background-color: red;
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
+
+
